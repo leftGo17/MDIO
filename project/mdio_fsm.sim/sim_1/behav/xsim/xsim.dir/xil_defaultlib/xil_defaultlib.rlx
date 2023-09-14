@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Acode/Vivado1803/Learning/4_mdio_fsm/project/mdio_fsm.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Acode/Vivado1803/Learning/4_mdio_fsm/project/mdio_fsm.srcs/sources_1/ip/ila_0/sim/ila_0.v,1694293717,verilog,,D:/Acode/Vivado1803/Learning/4_mdio_fsm/rtl/mdio.v,,ila_0,,,,,,,,
+D:/Acode/Vivado1803/Learning/4_mdio_fsm/rtl/mdio.v,1694487782,verilog,,D:/Acode/Vivado1803/Learning/4_mdio_fsm/rtl/mdio_set.v,,mdio,,,,,,,,
+,,,,D:/Acode/Vivado1803/Learning/4_mdio_fsm/sim/tb_mdio_set.v,,mdio_set,,,,,,,,
+,,,,,,,,,,,,,,
+D:/Acode/Vivado1803/Learning/4_mdio_fsm/sim/tb_mdio.v,1694278840,verilog,,,,tb_mdio,,,,,,,,
+,,,,,,tb_mdio_set,,,,,,,,

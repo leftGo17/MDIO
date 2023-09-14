@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Acode/Vivado1803/Learning/4_mdio_fsm/rtl/mdio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mdio
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Acode/Vivado1803/Learning/4_mdio_fsm/rtl/mdio_set.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mdio_set
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Acode/Vivado1803/Learning/4_mdio_fsm/sim/tb_mdio_set.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mdio_set

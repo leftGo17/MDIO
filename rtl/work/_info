@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Acode/Vivado1803/Learning/4_mdio_fsm/rtl
+vmdio
+!s110 1694293743
+!i10b 1
+!s100 z5]W<E]k1BE[`5E=MF[I13
+I[1FgH_g^oV=EBYWT6:9Ve0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1694293743
+8c:\users\zjp\appdata\local\temp\tmp_e3w5w.v
+Fc:\users\zjp\appdata\local\temp\tmp_e3w5w.v
+L0 1
+Z2 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1694293743.000000
+!s107 c:\users\zjp\appdata\local\temp\tmp_e3w5w.v|
+!s90 c:\users\zjp\appdata\local\temp\tmp_e3w5w.v|
+!i113 0
+Z3 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z4 tCvgOpt 0
+vmdio_top
+!s110 1694295704
+!i10b 1
+!s100 oad<Xz0bgHgn]ZRBkTBPl3
+IP^e9:[MjC`Zkc[@0YYZdK0
+R1
+R0
+w1694295704
+8c:\users\zjp\appdata\local\temp\tmpkrpigm.v
+Fc:\users\zjp\appdata\local\temp\tmpkrpigm.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1694295704.000000
+!s107 c:\users\zjp\appdata\local\temp\tmpkrpigm.v|
+!s90 c:\users\zjp\appdata\local\temp\tmpkrpigm.v|
+!i113 0
+R3
+R4
+vtop
+!s110 1694501948
+!i10b 1
+!s100 VJj>d[GIW8:eoUzoEDG6a0
+I=XT<ndXoRNJlS]MF]BOjD1
+R1
+R0
+w1694501948
+8c:\users\zjp\appdata\local\temp\tmp6b194t.v
+Fc:\users\zjp\appdata\local\temp\tmp6b194t.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1694501948.000000
+!s107 c:\users\zjp\appdata\local\temp\tmp6b194t.v|
+!s90 c:\users\zjp\appdata\local\temp\tmp6b194t.v|
+!i113 0
+R3
+R4
