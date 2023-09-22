@@ -9,7 +9,7 @@ module top
 
 	output		reg				led
 );
-
+  
 
 reg			start_flag;
 wire		key_flag;
@@ -33,13 +33,14 @@ always @(posedge sys_clk)
 		led <= 0;
 	else 
 		if (mdio_set_end_flag == 1 && mdio_link_flag == 1)
-			led <= 1;
+			led <= ~led;
 		else if (mdio_set_end_flag == 1 && mdio_link_flag == 0)
-			led <= 0;
+			led <= led;
 		else
 			led <= led;
-			
-	
+		
+
+
 mdio_set mdio_set_inst
 (
 	.sys_clk(sys_clk),

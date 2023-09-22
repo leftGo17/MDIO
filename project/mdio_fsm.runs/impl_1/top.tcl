@@ -60,13 +60,13 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param tcl.collectionResultDisplayLimit 0
+  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7z010clg400-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
@@ -74,7 +74,9 @@ set rc [catch {
   set_property parent.project_path D:/Acode/Vivado1803/Learning/4_mdio_fsm/project/mdio_fsm.xpr [current_project]
   set_property ip_output_repo D:/Acode/Vivado1803/Learning/4_mdio_fsm/project/mdio_fsm.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
+  set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
   add_files -quiet D:/Acode/Vivado1803/Learning/4_mdio_fsm/project/mdio_fsm.runs/synth_1/top.dcp
+  read_ip -quiet D:/Acode/Vivado1803/Learning/4_mdio_fsm/project/mdio_fsm.srcs/sources_1/ip/ila_1/ila_1.xci
   read_xdc D:/Acode/Vivado1803/Learning/4_mdio_fsm/project/mdio_fsm.srcs/constrs_1/new/mdio.xdc
   link_design -top top -part xc7z010clg400-1
   close_msg_db -file init_design.pb
@@ -155,6 +157,7 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
   catch { write_mem_info -force top.mmi }
   write_bitstream -force top.bit 
   catch {write_debug_probes -quiet -force top}

@@ -3,6 +3,8 @@ start_flag 高电平有效
 在start_flag 上升沿（包括）之前给定r_w,address,data维持
 */
 
+
+
 module mdio (
     input   wire        sys_clk,    
     input   wire        sys_rst_n, 
@@ -92,7 +94,6 @@ always @(posedge sys_clk)
         default:
             state <= IDLE;
         endcase
-
 
 //第二段输出
 //输出mdc
@@ -217,5 +218,5 @@ always @(posedge sys_clk)
             if (cnt_mdc == CNT_MAX)
                 num_mdc <= num_mdc + 1;
         endcase        
-    
+
 endmodule

@@ -45,7 +45,7 @@ always @(posedge sys_clk)
 				state <= IDLE;
 		default:
 			state <= IDLE;
-		endcase	
+		endcase
 
 //
 always @(posedge sys_clk)
@@ -76,14 +76,13 @@ always @(posedge sys_clk)
 				begin
 					mdio_start_flag <= 1;
 					r_w <= 1;
-					phy_add <= 0;
-					reg_add <= 1;
 				end
 			else
 				mdio_start_flag <= 0;
 		default:
 			mdio_start_flag <= 0;
 		endcase
+
 
 //
 always @(posedge sys_clk)
@@ -101,6 +100,7 @@ always @(posedge sys_clk)
 			mdio_set_end_flag <= 0;
 		endcase
 
+
 //
 always @(posedge sys_clk)
 	//reset
@@ -110,7 +110,7 @@ always @(posedge sys_clk)
 		case(state)
 		READ:
 			if (mdio_end_flag == 1)
-				if (read_reg_data[2] == 1)
+				if (read_reg_data == write_reg_data)
 					mdio_link_flag <= 1;
 				else
 					mdio_link_flag <= 0;
@@ -135,6 +135,23 @@ mdio mdio_inst
 	.mdio			(mdio),
 
 	.end_flag		(mdio_end_flag)
+);
+
+ila_1 your_instance_name (
+	.clk(sys_clk), // input wire clk
+
+
+	.probe0(mdio_start_flag), // input wire [0:0]  probe0  
+	.probe1(mdio_end_flag), // input wire [0:0]  probe1 
+	.probe2(r_w), // input wire [0:0]  probe2 
+	.probe3(phy_add), // input wire [4:0]  probe3 
+	.probe4(reg_add), // input wire [4:0]  probe4 
+	.probe5(write_reg_data), // input wire [15:0]  probe5 
+	.probe6(read_reg_data), // input wire [15:0]  probe6 
+	.probe7(mdc), // input wire [0:0]  probe7 
+	.probe8(mdio_set_start_flag), // input wire [0:0]  probe8 
+	.probe9(mdio_set_end_flag), // input wire [0:0]  probe9 
+	.probe10(mdio_link_flag) // input wire [0:0]  probe10
 );
 endmodule
 

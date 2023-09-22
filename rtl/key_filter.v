@@ -16,21 +16,23 @@ reg     [19:0]  cnt_20ms    ;   //计数器
 always@(posedge sys_clk)
     if(sys_rst_n == 1'b0)
         cnt_20ms <= 20'b0;
-    else    if(key_in == 1'b1)
-        cnt_20ms <= 20'b0;
-    else    if(cnt_20ms == CNT_MAX && key_in == 1'b0)
-        cnt_20ms <= cnt_20ms;
-    else
-        cnt_20ms <= cnt_20ms + 1'b1;
+    else    
+        if(key_in == 1'b1)
+            cnt_20ms <= 20'b0;
+        else    if(cnt_20ms == CNT_MAX && key_in == 1'b0)
+            cnt_20ms <= cnt_20ms;
+        else
+            cnt_20ms <= cnt_20ms + 1'b1;
 
 //key_flag:当计数满20ms后产生按键有效标志位
 //且key_flag在999_999时拉高,维持一个时钟的高电平
 always@(posedge sys_clk)
     if(sys_rst_n == 1'b0)
         key_flag <= 1'b0;
-    else    if(cnt_20ms == CNT_MAX - 1'b1)
-        key_flag <= 1'b1;
-    else
-        key_flag <= 1'b0;
+    else    
+        if(cnt_20ms == CNT_MAX - 1'b1)
+            key_flag <= 1'b1;
+        else
+            key_flag <= 1'b0;
 
 endmodule

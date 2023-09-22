@@ -9,26 +9,47 @@ z2
 cModel Technology
 Z0 dD:/Acode/Vivado1803/Learning/4_mdio_fsm/rtl
 vmdio
-!s110 1694293743
+!s110 1695394779
 !i10b 1
-!s100 z5]W<E]k1BE[`5E=MF[I13
-I[1FgH_g^oV=EBYWT6:9Ve0
+!s100 WdWz=T:@c7m9R7Zo@`AhG3
+IP=P8k9z1mN2`YH7EhibM>1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1694293743
-8c:\users\zjp\appdata\local\temp\tmp_e3w5w.v
-Fc:\users\zjp\appdata\local\temp\tmp_e3w5w.v
-L0 1
+w1695394779
+8c:\users\yiyi\appdata\local\temp\tmprjypbm.v
+Fc:\users\yiyi\appdata\local\temp\tmprjypbm.v
+L0 8
 Z2 OL;L;10.5;63
 r1
 !s85 0
 31
-!s108 1694293743.000000
-!s107 c:\users\zjp\appdata\local\temp\tmp_e3w5w.v|
-!s90 c:\users\zjp\appdata\local\temp\tmp_e3w5w.v|
+!s108 1695394779.000000
+!s107 c:\users\yiyi\appdata\local\temp\tmprjypbm.v|
+!s90 c:\users\yiyi\appdata\local\temp\tmprjypbm.v|
 !i113 0
 Z3 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z4 tCvgOpt 0
+vmdio_set
+!s110 1695397428
+!i10b 1
+!s100 DP]2Wnbjf5UcZA^>cVa1A2
+IGTUZzUI1aho@iRE:7ZV_R2
+R1
+R0
+w1695397428
+8c:\users\yiyi\appdata\local\temp\tmp9myx3j.v
+Fc:\users\yiyi\appdata\local\temp\tmp9myx3j.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1695397428.000000
+!s107 c:\users\yiyi\appdata\local\temp\tmp9myx3j.v|
+!s90 c:\users\yiyi\appdata\local\temp\tmp9myx3j.v|
+!i113 0
+R3
+R4
 vmdio_top
 !s110 1694295704
 !i10b 1
@@ -51,23 +72,23 @@ r1
 R3
 R4
 vtop
-!s110 1694501948
+!s110 1695396056
 !i10b 1
-!s100 VJj>d[GIW8:eoUzoEDG6a0
-I=XT<ndXoRNJlS]MF]BOjD1
+!s100 DGdC3zP?la:RAIZ[XRD2d0
+ITW06AKB68D0E>0>b67U572
 R1
 R0
-w1694501948
-8c:\users\zjp\appdata\local\temp\tmp6b194t.v
-Fc:\users\zjp\appdata\local\temp\tmp6b194t.v
+w1695396056
+8c:\users\yiyi\appdata\local\temp\tmpk0hp4c.v
+Fc:\users\yiyi\appdata\local\temp\tmpk0hp4c.v
 L0 1
 R2
 r1
 !s85 0
 31
-!s108 1694501948.000000
-!s107 c:\users\zjp\appdata\local\temp\tmp6b194t.v|
-!s90 c:\users\zjp\appdata\local\temp\tmp6b194t.v|
+!s108 1695396056.000000
+!s107 c:\users\yiyi\appdata\local\temp\tmpk0hp4c.v|
+!s90 c:\users\yiyi\appdata\local\temp\tmpk0hp4c.v|
 !i113 0
 R3
 R4

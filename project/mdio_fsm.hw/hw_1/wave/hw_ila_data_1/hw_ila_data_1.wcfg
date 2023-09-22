@@ -9,51 +9,84 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="4096001fs"></ZoomEndTime>
+      <ZoomStartTime time="160460fs"></ZoomStartTime>
+      <ZoomEndTime time="1199206fs"></ZoomEndTime>
       <Cursor1Time time="1758000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="233"></NameColumnWidth>
-      <ValueColumnWidth column_width="156"></ValueColumnWidth>
+      <NameColumnWidth column_width="237"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="5" />
+   <WVObjectSize size="11" />
    <wave_markers>
    </wave_markers>
-   <wvobject fp_name="mdc_OBUF" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">mdc_OBUF</obj_property>
-      <obj_property name="ObjectShortName">mdc_OBUF</obj_property>
+   <wvobject fp_name="mdio_set_inst/mdc" type="logic">
+      <obj_property name="ElementShortName">mdio_set_inst/mdc</obj_property>
+      <obj_property name="ObjectShortName">mdc</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="key1_f" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">key1_f</obj_property>
-      <obj_property name="ObjectShortName">key1_f</obj_property>
+   <wvobject fp_name="mdio_set_inst/mdio_end_flag" type="logic">
+      <obj_property name="ElementShortName">mdio_set_inst/mdio_end_flag</obj_property>
+      <obj_property name="ObjectShortName">mdio_end_flag</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="key2_f" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">key2_f</obj_property>
-      <obj_property name="ObjectShortName">key2_f</obj_property>
+   <wvobject fp_name="mdio_set_inst/mdio_link_flag" type="logic">
+      <obj_property name="ElementShortName">mdio_set_inst/mdio_link_flag</obj_property>
+      <obj_property name="ObjectShortName">mdio_link_flag</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="read_reg_data" type="array">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">read_reg_data[15:0]</obj_property>
+   <wvobject fp_name="mdio_set_inst/mdio_set_end_flag" type="logic">
+      <obj_property name="ElementShortName">mdio_set_inst/mdio_set_end_flag</obj_property>
+      <obj_property name="ObjectShortName">mdio_set_end_flag</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mdio_set_inst/mdio_set_start_flag" type="logic">
+      <obj_property name="ElementShortName">mdio_set_inst/mdio_set_start_flag</obj_property>
+      <obj_property name="ObjectShortName">mdio_set_start_flag</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mdio_set_inst/phy_add" type="array">
+      <obj_property name="ElementShortName">mdio_set_inst/phy_add[4:0]</obj_property>
+      <obj_property name="ObjectShortName">phy_add[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mdio_set_inst/mdio_start_flag" type="logic">
+      <obj_property name="ElementShortName">mdio_set_inst/mdio_start_flag</obj_property>
+      <obj_property name="ObjectShortName">mdio_start_flag</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mdio_set_inst/r_w" type="logic">
+      <obj_property name="ElementShortName">mdio_set_inst/r_w</obj_property>
+      <obj_property name="ObjectShortName">r_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mdio_set_inst/read_reg_data" type="array">
+      <obj_property name="ElementShortName">mdio_set_inst/read_reg_data[15:0]</obj_property>
       <obj_property name="ObjectShortName">read_reg_data[15:0]</obj_property>
       <obj_property name="Radix">BINARYRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="read_reg_data" type="array">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">read_reg_data[15:0]</obj_property>
-      <obj_property name="ObjectShortName">read_reg_data[15:0]</obj_property>
+   <wvobject fp_name="mdio_set_inst/write_reg_data" type="array">
+      <obj_property name="ElementShortName">mdio_set_inst/write_reg_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">write_reg_data[15:0]</obj_property>
       <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="mdio_set_inst/reg_add" type="array">
+      <obj_property name="ElementShortName">mdio_set_inst/reg_add[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_add[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
